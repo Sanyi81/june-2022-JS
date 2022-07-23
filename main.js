@@ -73,6 +73,5 @@ console.log(typeof c1);
 
 let name = prompt('Your name');
 let surname = prompt('Your surname');
-let age = prompt('Your age');
+let age = +prompt('Your age');
 alert(`Your name is ${name}, your surname is ${surname}, you are ${age}.`);
-
